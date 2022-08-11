@@ -1,0 +1,13 @@
+    Object(we.jsxs)(dg, {
+                    id: "swap-nav-link",
+                    to: "/swap",
+                    children: [
+                      Object(we.jsx)("img", {
+                        src: t("swap")
+                          ? "./static/media/swap.png"
+                          : "./static/media/swap.png",
+                        alt: "Swap",
+                      }),
+                      Object(we.jsx)(f.b, { id: "Swap" }),
+                    ],
+                  }),
