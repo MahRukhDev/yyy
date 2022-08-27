@@ -3974,7 +3974,7 @@ html {
   padding: 0;
   border-radius: 25px 34px 34px 34px;
   color: rgba(0, 0, 0, 0.85);
-  font-size: 16px;
+  font-size: 12px;
   line-height: 0;
   text-align: left;
   list-style: none;
@@ -4045,7 +4045,7 @@ html {
   transition: color 0.3s;
 }
 .ant-menu-item a {
-  color: rgba(0, 0, 0, 0.85);
+  color: rgb(57 6 79 / 85%);
 }
 .ant-menu-item a:hover {
   color: #3315a3;
@@ -4155,7 +4155,7 @@ html {
 .ant-menu-submenu-title .anticon {
   min-width: -40px;
   font-size: 14px;
-  margin: 11px -62px 32px 37px;
+  margin: 13px -62px 23px 38px;
   transition: font-size 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
     margin 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.3s;
 }
@@ -4163,7 +4163,7 @@ html {
 .ant-menu-item .anticon + span,
 .ant-menu-submenu-title .ant-menu-item-icon + span,
 .ant-menu-submenu-title .anticon + span {
-  margin: 27px 54px -23px 24px;
+  margin: 28px 62px -18px 25px;
   opacity: 1;
   transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), margin 0.3s,
     color 0.3s;
@@ -4626,7 +4626,7 @@ html {
 .ant-menu-sub.ant-menu-inline {
   padding: 0;
   background: #e2e3ff;
-  border-radius: 30px;
+  border-radius: 24px;
   box-shadow: none;
 }
 .ant-menu-sub.ant-menu-inline > .ant-menu-item,
