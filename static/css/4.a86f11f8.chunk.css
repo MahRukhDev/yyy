@@ -3974,7 +3974,7 @@ html {
   padding: 0;
   border-radius: 34px 34px 34px 34px;
   color: rgba(0, 0, 0, 0.85);
-  font-size: 16px;
+  font-size: 12px;
   line-height: 0;
   text-align: left;
   list-style: none;
@@ -4426,7 +4426,7 @@ html {
   padding-right: 34px;
 }
 .ant-menu-inline {
-  width: 100%;
+  width: 84%;
 }
 .ant-menu-inline .ant-menu-item-selected:after,
 .ant-menu-inline .ant-menu-selected:after {
