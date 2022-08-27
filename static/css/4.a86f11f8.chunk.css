@@ -4153,8 +4153,9 @@ html {
 .ant-menu-item .anticon,
 .ant-menu-submenu-title .ant-menu-item-icon,
 .ant-menu-submenu-title .anticon {
-  min-width: 14px;
+  min-width: -40px;
   font-size: 14px;
+  margin: 10px -39px 20px 26px;
   transition: font-size 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
     margin 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.3s;
 }
@@ -4162,7 +4163,7 @@ html {
 .ant-menu-item .anticon + span,
 .ant-menu-submenu-title .ant-menu-item-icon + span,
 .ant-menu-submenu-title .anticon + span {
-  margin-left: 10px;
+  margin: 21px 48px -34px 3px;
   opacity: 1;
   transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), margin 0.3s,
     color 0.3s;
@@ -4407,7 +4408,7 @@ html {
 .ant-menu-vertical-left .ant-menu-item:not(:last-child),
 .ant-menu-vertical-right .ant-menu-item:not(:last-child),
 .ant-menu-vertical .ant-menu-item:not(:last-child) {
-  margin-bottom: 18px;
+  margin-bottom: -13px;
 }
 .ant-menu-inline > .ant-menu-item,
 .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title,
@@ -4417,7 +4418,7 @@ html {
 .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
 .ant-menu-vertical > .ant-menu-item,
 .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title {
-  height: 40px;
+  height: 83px;
   line-height: 40px;
 }
 .ant-menu-vertical .ant-menu-item-group-list .ant-menu-submenu-title,
@@ -4624,13 +4625,13 @@ html {
 }
 .ant-menu-sub.ant-menu-inline {
   padding: 0;
-  background: #E2E3FF;
+  background: #e2e3ff;
   border-radius: 0;
   box-shadow: none;
 }
 .ant-menu-sub.ant-menu-inline > .ant-menu-item,
 .ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
-  height: 40px;
+  height: 94px;
   line-height: 40px;
   list-style-position: inside;
   list-style-type: disc;
@@ -21047,6 +21048,12 @@ textarea.ant-mentions {
 .anticon.ant-notification-notice-icon-error {
   color: #ff4d4f;
 }
+.img1 {
+  width: 16px;
+  aspect-ratio: auto 16 / 16;
+  height: 16px;
+}
+
 .ant-notification-notice-close {
   position: absolute;
   top: 16px;
