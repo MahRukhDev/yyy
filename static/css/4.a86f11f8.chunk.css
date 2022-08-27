@@ -3972,9 +3972,9 @@ html {
   font-feature-settings: "tnum", "tnum";
   margin: 0;
   padding: 0;
-  border-radius: 34px 34px 34px 34px;
+  border-radius: 25px 34px 34px 34px;
   color: rgba(0, 0, 0, 0.85);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 0;
   text-align: left;
   list-style: none;
@@ -4155,7 +4155,7 @@ html {
 .ant-menu-submenu-title .anticon {
   min-width: -40px;
   font-size: 14px;
-  margin: 10px -39px 20px 26px;
+  margin: 11px -62px 32px 37px;
   transition: font-size 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
     margin 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.3s;
 }
@@ -4163,7 +4163,7 @@ html {
 .ant-menu-item .anticon + span,
 .ant-menu-submenu-title .ant-menu-item-icon + span,
 .ant-menu-submenu-title .anticon + span {
-  margin: 21px 48px -34px 3px;
+  margin: 27px 54px -23px 24px;
   opacity: 1;
   transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), margin 0.3s,
     color 0.3s;
@@ -4426,7 +4426,7 @@ html {
   padding-right: 34px;
 }
 .ant-menu-inline {
-  width: 84%;
+  width: 99%;
 }
 .ant-menu-inline .ant-menu-item-selected:after,
 .ant-menu-inline .ant-menu-selected:after {
